@@ -6,5 +6,6 @@
 
 **ReviewPage.md**: 所有题目的总结和归纳（不断完善中）
 
-| Squence | Problem       | Level  | Language  | Tags |
-|:-------:|:--------------|:------:|:---------:|:----:|
+| Squence | Problem       | Language  | Tags |
+|:-------:|:--------------|:---------:|:----:|
+|0|斐波那契|python3|递归和循环|
