@@ -11,7 +11,7 @@ class Solution:
             return self.Fibonacci1(n - 2) + self.Fibonacci1(n-1)
         
     def Fibonacci2(self, n):
-        # 循环的方式
+        # 循环的方式，时间复杂度为n
         if n == 0:
             return 0
         elif n == 1:
