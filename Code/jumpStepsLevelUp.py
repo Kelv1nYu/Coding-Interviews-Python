@@ -33,6 +33,6 @@ class Solution:
 
 if __name__ == '__main__':
     s = Solution()
-    print(s.jumpSteps1(n))
-    print(s.jumpSteps2(n))
-    print(s.jumpSteps3(n))
+    print(s.jumpSteps1(n)) # n需要替换成任意一个数字
+    print(s.jumpSteps2(n)) # n需要替换成任意一个数字
+    print(s.jumpSteps3(n)) # n需要替换成任意一个数字
