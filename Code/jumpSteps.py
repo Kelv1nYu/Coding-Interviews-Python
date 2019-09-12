@@ -31,9 +31,7 @@ class Solution:
 
         return ret
 
-
 if __name__ == '__main__':
     s = Solution()
-    n = int(input())
-    print(s.jumpSteps1(n))
-    print(s.jumpSteps2(n))
+    s.Fibonacci1(n) # n需要替换成任意一个数字
+    s.Fibonacci2(n) # n需要替换成任意一个数字
