@@ -134,3 +134,29 @@
       a = ret # 将ret（a * 2）的值赋给a，作为下一次计算的a
 
 ---
+---
+**3. [二维数组中的查找](https://github.com/Kelv1nYu/)**      Level: Easy
+
+简单的循环嵌套：
+      
+      # 循环i
+      for i in len(array):
+      # 循环j
+          for j in len(array[0]):
+          # 比较值，存在返回True
+      
+      循环体外返回False
+      
+拟指针移动：
+      
+      假设指针最开始指向右上角，即i = 0，j = len(array[0]) - 1的位置
+      # 开始while循环，条件为 i < len(array) 和 j >= 0, 即行和列不超出数组边界
+      # 进行值的比较：
+      if target == array[i][j]:
+          return True
+      elif target < array[i][j]:
+          j -= 1                  # 当目标值小于当前值时，需要指针左移，故 j - 1
+      else:
+          i += 1                  # 反之，当目标值大于当前值时，需要指针下移，故 i + 1，下移指向下移列最后一个值然后，实现每一行都从最后一个值往前进行判断
+      
+---
